@@ -32,6 +32,8 @@ def helper():
         help_table.add_row("dir", "Shows all the present directories and files in the current working directory of the program")
         help_table.add_row("cd", "Shows all the present directories and files of the given directory")
         help_table.add_row("df", "BETA/UNSTABLE. USE AT YOUR OWN RISK. Downloads a .txt file from the given path")
+        help_table.add_row("rmf", "Remove file from the given directory")
+        help_table.add_row("cls", "Clears the screen of the server terminal")
         console.print(help_table)
 
 #Commands
